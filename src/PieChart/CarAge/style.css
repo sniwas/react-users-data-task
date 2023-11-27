@@ -1,0 +1,14 @@
+.chart-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    max-width: 150%;
+  }
+}

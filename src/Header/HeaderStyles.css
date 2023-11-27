@@ -1,0 +1,135 @@
+@media (min-width: 640px) {
+  .nav-button-style {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .nav-bar-menu-style {
+    display: none;
+  }
+}
+
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #fff;
+  color: white;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.custom-header a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.custom-header a:hover {
+  color: #ffcc00;
+}
+
+.custom-header h1 {
+  color: #000;
+}
+
+.custom-header nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.svg-styles {
+  background-color: transparent;
+  width: fit-content;
+  height: fit-content;
+  padding-top: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom-header nav a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.custom-header nav a:hover {
+  color: #ffcc00;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.hidden {
+  display: none;
+}
+
+.visibile {
+  display: block;
+}
+.modal-content {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.custom-modal {
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-modal-content {
+  padding: 1rem;
+}
+
+.custom-modal-content nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-modal-content nav a {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.custom-modal-content nav a:hover {
+  color: #ffcc00;
+}
